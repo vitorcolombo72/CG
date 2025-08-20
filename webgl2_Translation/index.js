@@ -80,7 +80,7 @@ function main() {
       gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
       figure.draw(gl); // atualiza buffer
 
-      // 👇 Aqui está a correção fundamental:
+
       gl.vertexAttribPointer(
         positionAttributeLocation,
         2,
