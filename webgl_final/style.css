@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+canvas {
+  display: block;
+  width: 100vw;
+  height: 97vh;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.planet-checkbox,.planet-checkboxe {
+  margin-right: 0px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+#testando{
+  color: red;
+  border: 1px solid white;
+  position: absolute;
+  top: 0%;
+  left:45%;
+  font-size: large;
+}
+#displaydata {
+  color: red;
+  border: 1px solid white;
+  position: absolute;
+  top:3%;
+  left:45%;
+  font-size: large;
+}

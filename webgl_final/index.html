@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id = "testando">Ano: Dia:</p>
+    <p id = "displaydata"> Display data</p>
+    <canvas id="canvas" ></canvas>
+    <div class="container">
+        <input type="checkbox" name="mercury" class="planet-checkbox" id="mercury">
+        <label for="mercury">Follow Mercury</label>
+
+        <input type="checkbox" name="venus" class="planet-checkbox" id="venus">
+        <label for="venus">Follow Venus</label>
+
+        <input type="checkbox" name="earth" class="planet-checkbox" id="earth">
+        <label for="earth">Follow Earth</label>
+
+        <input type="checkbox" name="mars" class="planet-checkbox" id="mars">
+        <label for="mars">Follow Mars</label>
+
+        <input type="checkbox" name="jupiter" class="planet-checkbox" id="jupiter">
+        <label for="jupiter">Follow Jupiter</label>
+
+        <input type="checkbox" name="saturn" class="planet-checkbox" id="saturn">
+        <label for="saturn">Follow Saturn</label>
+
+        <input type="checkbox" name="uranus" class="planet-checkbox" id="uranus">
+        <label for="uranus">Follow Uranus</label>
+
+        <input type="checkbox" name="neptune" class="planet-checkbox" id="neptune">
+        <label for="neptune">Follow Neptune</label>
+
+        <input type="checkbox" name="voyager1" class="planet-checkbox" id="voyager1">
+        <label for="voyager1">Follow Voyager1</label>
+
+        <input type="checkbox" name="ulysses" class="planet-checkbox" id="ulysses">
+        <label for="ulysses">Follow Ulysses</label>
+
+        <input type="checkbox" name="hyakutake" class="planet-checkbox" id="hyakutake">
+        <label for="hyakutake">Follow Hyakutake</label>
+
+        <label for="myRange">Speed:</label>
+        <input type="range" min="-20" max="20" value="1" class="planet-checkboxe" id="myRange">
+    </div>
+</body>
+</html>
+    <script src="gl-matrix-min.js" ></script>
+    <script src = "shaders.js" type="module"></script>
+    <script src="main.js" type="module" ></script>
+
